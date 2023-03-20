@@ -6,7 +6,7 @@ import pyperclip
 
 def Widgets():
 
-################################################################################################### first head 
+# first head 
 	head_label = Label(MS, 
 					text=" BY. MOHAMED ELSAYED ",
 					padx=15,
@@ -19,7 +19,7 @@ def Widgets():
 					pady=10,
 					padx=15,
 					columnspan=3)
-#################################################################################################### secend head 
+# secend head 
 	link_label = Label(MS,
 					text="YouTube link : >>>> ",
 					font="Arial 14 bold",
@@ -41,7 +41,7 @@ def Widgets():
 					pady=5,
 					padx=5,
 					columnspan=2)
-################################################################################################### button to paste link
+# button to paste link
 	browse_A = Button(MS,
 					text="Paste",
 					command=update_text,
@@ -54,7 +54,7 @@ def Widgets():
 				column=3,
 				pady=1,
 				padx=1)
-################################################################################################### h3 
+#h3 
 	Downloadlocation_label = Label(MS,
 							text="Download location : >>>>",
 							font="Arial 14 bold",
@@ -77,7 +77,7 @@ def Widgets():
 							pady=5,
 							padx=5)
 
-################################################################################################### choose file to download by button Browse and button download vedio
+#choose file to download by button Browse and button download vedio
 
 	browse_B = Button(MS,
 					text="Browse",
@@ -107,7 +107,7 @@ def Widgets():
 					pady=10,
 					padx=10)
 
-###############################################################################################################	button to download audio		
+#button to download audio		
 
 	Download_C = Button(MS,
 						text="Download Audio",

@@ -1,2 +1,5 @@
 # Youtube-Download-by-MS
-Download from YouTube
+please don't forget to install pytube and pyperclip
+pip install pytube
+pip install pyperclip
+and say thanks ♥
